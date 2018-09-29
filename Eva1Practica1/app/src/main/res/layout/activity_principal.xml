@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/txtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:autoText="false"
+        android:text="Cafetería"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="Cafetería" />
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RbtnA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Americano(20$)" />
+
+        <RadioButton
+            android:id="@+id/RbtnC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Capuchino(48$)" />
+
+        <RadioButton
+            android:id="@+id/RbtnE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:autoText="true"
+            android:text="Expreso(30$)" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtCAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad" />
+
+        <EditText
+            android:id="@+id/EdNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtEX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extras" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azucar (1$)" />
+
+        <CheckBox
+            android:id="@+id/checkC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crema (1$)" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion de la compra" />
+
+    <TextView
+        android:id="@+id/txtPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total" />
+
+</LinearLayout>
