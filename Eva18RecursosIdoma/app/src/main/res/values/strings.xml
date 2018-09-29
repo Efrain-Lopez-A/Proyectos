@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eva1-8-RecursosIdoma</string>
+    <string name="Respa_Es">Espanol</string>
+    <string name="Respa_In">Spanish</string>
+    <string name="Ringles_Es">Ingles</string>
+    <string name="Ringles_In">English</string>
+
+    <string name="tvnombre_Es">Nombre:</string>
+    <string name="tvnombre_In">First Name</string>
+    <string name="etnombre_Es">Introduce tu nombre</string>
+    <string name="etnombre_In">First Name Input</string>
+</resources>
